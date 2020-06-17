@@ -57,7 +57,7 @@ class Item extends React.Component {
 									</div>
 								</div>
 								<br/>
-								<p>{this.state.Item.Description}</p>
+								<pre>{this.state.Item.Description}</pre>
 							</div>
 							<div className="card-action">
 								<Link to="/order/new">СДЕЛАТЬ ЗАКАЗ</Link>
