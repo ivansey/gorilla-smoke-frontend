@@ -121,12 +121,12 @@ class AdminItemsAdd extends React.Component {
 					<label htmlFor="description">Описание</label>
 					<textarea className="materialize-textarea" id="description" onChange={this.HandleDescription}/>
 				</div>
-				<div className="">
-					<p>Фото</p>
-					<input type="file" id="photo" onChange={this.HandleUploadImagePhoto} ref={(ref) => {
-						this.image = ref;
-					}}/>
-				</div>
+				{/*<div className="">*/}
+				{/*	<p>Фото</p>*/}
+				{/*	<input type="file" id="photo" onChange={this.HandleUploadImagePhoto} ref={(ref) => {*/}
+				{/*		this.image = ref;*/}
+				{/*	}}/>*/}
+				{/*</div>*/}
 				<div className="">
 					<p>Иконка</p>
 					<input type="file" id="icon" onChange={this.HandleUploadImageIcon} ref={(ref) => {
