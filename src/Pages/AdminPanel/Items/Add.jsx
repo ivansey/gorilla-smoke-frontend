@@ -109,6 +109,12 @@ class AdminItemsAdd extends React.Component {
 		});
 	};
 
+	Colors = [
+		["red", "Красный"],
+		["green", "Зелёный"],
+		["blue", "Синий"],
+	]
+
 	render() {
 		return <div className="container">
 			<div className="container">
@@ -138,13 +144,48 @@ class AdminItemsAdd extends React.Component {
 					<select onChange={this.HandleColor} defaultValue="def">
 						<option value="def" disabled>Выбирете цвет</option>
 						<optgroup label="Красные цвета">
+							<option value="red lighten-4">Красный светлый-4</option>
+							<option value="red lighten-3">Красный светлый-3</option>
+							<option value="red lighten-2">Красный светлый-2</option>
+							<option value="red lighten-1">Красный светлый</option>
 							<option value="red">Красный</option>
+							<option value="red darken-1">Красный темный</option>
+							<option value="red darken-2">Красный темный-2</option>
+							<option value="red darken-3">Красный темный-3</option>
+							<option value="red darken-4">Красный темный-4</option>
 						</optgroup>
 						<optgroup label="Зелёные цвета">
+							<option value="green lighten-4">Зелёный светлый-4</option>
+							<option value="green lighten-3">Зелёный светлый-3</option>
+							<option value="green lighten-2">Зелёный светлый-2</option>
+							<option value="green lighten-1">Зелёный светлый</option>
 							<option value="green">Зелёный</option>
+							<option value="green darken-1">Зелёный темный</option>
+							<option value="green darken-2">Зелёный темный-2</option>
+							<option value="green darken-3">Зелёный темный-3</option>
+							<option value="green darken-4">Зелёный темный-4</option>
 						</optgroup>
 						<optgroup label="Синие цвета">
+							<option value="blue lighten-4">Синий светлый-4</option>
+							<option value="blue lighten-3">Синий светлый-3</option>
+							<option value="blue lighten-2">Синий светлый-2</option>
+							<option value="blue lighten-1">Синий светлый</option>
 							<option value="blue">Синий</option>
+							<option value="blue darken-1">Синий темный</option>
+							<option value="blue darken-2">Синий темный-2</option>
+							<option value="blue darken-3">Синий темный-3</option>
+							<option value="blue darken-4">Синий темный-4</option>
+						</optgroup>
+						<optgroup label="Желтые цвета">
+							<option value="yellow lighten-4">Желтый светлый-4</option>
+							<option value="yellow lighten-3">Желтый светлый-3</option>
+							<option value="yellow lighten-2">Желтый светлый-2</option>
+							<option value="yellow lighten-1">Желтый светлый</option>
+							<option value="yellow">Желтый</option>
+							<option value="yellow darken-1">Желтый темный</option>
+							<option value="yellow darken-2">Желтый темный-2</option>
+							<option value="yellow darken-3">Желтый темный-3</option>
+							<option value="yellow darken-4">Желтый темный-4</option>
 						</optgroup>
 					</select>
 					<label>Цвет</label>
