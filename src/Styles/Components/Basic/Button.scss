@@ -1,0 +1,16 @@
+@import "../../Colors";
+@import "../../Var";
+
+.btn {
+	padding: 5px 10px;
+	background: $primaryColor;
+	color: $bgTextColor;
+	border: 0;
+	transition: all $transitionTime;
+	border-radius: 15px;
+
+	&:hover {
+		background: $primaryColorHover;
+		border: $outlineColor 2px solid;
+	}
+}

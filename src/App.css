@@ -1,0 +1,55 @@
+.smile {
+	width: 50px;
+}
+
+.slider-l {
+	display: block;
+}
+
+.slider-m {
+	display: none !important;
+}
+
+.slider-s {
+	display: none !important;
+}
+
+.card.small.extra {
+	height: 200px !important;
+}
+
+.card-padding {
+	padding: 10px;
+}
+
+.itemIcon {
+	width: 50px;
+}
+
+@media (max-width: 600px) {
+	.slider-l {
+		display: none !important;
+	}
+
+	.slider-m {
+		display: none !important;
+	}
+
+	.slider-s {
+		display: block !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.slider-l {
+		display: none !important;
+	}
+
+	.slider-m {
+		display: block !important;
+	}
+
+	.slider-s {
+		display: none !important;
+	}
+}

@@ -1,0 +1,26 @@
+@import "../../Colors";
+
+$blockPaddingY: 25px;
+$blockPaddingX: 25%;
+
+.page {
+	padding-top: 50px;
+
+	& .block {
+		padding-top: $blockPaddingY;
+		padding-bottom: $blockPaddingY;
+		padding-left: $blockPaddingX;
+		padding-right: $blockPaddingX;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&.white {
+			color: $bgTextColor;
+		}
+
+		& .title {
+			text-align: center;
+		}
+	}
+}
