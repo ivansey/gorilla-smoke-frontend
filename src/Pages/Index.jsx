@@ -70,6 +70,7 @@ class Index extends React.Component {
 		"background": "url('/bg0.jpg')",
 		"background-repeat": "no-repeat",
 		"background-position-y": "top",
+		"background-size": "contain",
 	}
 
 	render() {
